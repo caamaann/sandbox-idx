@@ -1,0 +1,68 @@
+// UI Kit - Q1 2021
+// Add "Title-Subtitle" based on design
+
+// Typography - Color
+$base-color-primary: #fab758;
+$base-color-secondary: #9b9b9b;
+$base-color-success: #3bc862;
+$base-color-info: #04aa594d;
+$base-color-warning: #f2c21b;
+$base-color-danger: #d10d0d;
+$base-color-orange: #e46a26;
+$base-color-navy: #182958;
+$base-color-light: #e3eaef;
+$base-color-dark: #5a5a5a;
+$base-color-title: #ffffff4a;
+$base-color-disabled: #93cad3;
+$base-color-primary-hover: #00d66f;
+$base-color-primary-seer: #4894fe1a;
+$base-color-tooltip: rgba(0, 0, 0, 0.76);
+$base-color-new: #216fed;
+$base-color-inactive-primary: #9cc6a0;
+$base-color-inactive: #ededed;
+$base-color-inactive-icon: #dddddd;
+
+// Typography - Text Color
+$text-primary: #21bad5;
+$text-secondary: #a5a5a5;
+$text-success: #00cf89;
+$text-info: #04aa594d;
+$text-warning: #d10d0d;
+$text-light: #dedede;
+$text-dark: #5a5a5a;
+$text-tooltip: #1f1f1f;
+
+// Modal
+$modal-small: 375px;
+$modal-medium: 500px;
+$modal-large: 800px;
+
+// Color For Bootstrap
+$theme-colors: (
+  "primary": $base-color-primary,
+  "secondary": $base-color-secondary,
+  "success": $base-color-success,
+  "info": $base-color-info,
+  "warning": $base-color-warning,
+  "danger": $base-color-danger,
+  "light": $base-color-light,
+  "dark": $base-color-dark,
+);
+
+$btn-focus-width: none;
+$btn-focus-box-shadow: none;
+
+$input-focus-border-color: $base-color-primary;
+$input-focus-box-shadow: 0 0 0 0.25rem rgba($base-color-primary, 0.25);
+
+:export {
+  primary: $base-color-primary;
+  secondary: $base-color-secondary;
+  success: $base-color-success;
+  info: $base-color-info;
+  warning: $base-color-warning;
+  danger: $base-color-danger;
+  light: $base-color-light;
+  dark: $base-color-dark;
+  inactive: $base-color-inactive;
+}

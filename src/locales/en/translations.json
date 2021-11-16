@@ -1,0 +1,8 @@
+{
+  "navbar": {
+    "home": "Home",
+    "procedure": "Procedure",
+    "registration": "Registration",
+    "login": "Login"
+  }
+}
